@@ -1,13 +1,14 @@
-﻿
+﻿using KYC360_Project.Models;
 namespace KYC360_Project.Interface
 {
     public interface IEntity
     {
-        public List<Address>? Addresses { get; set; }
-        public List<Date> Dates { get; set; }
-        public bool Deceased { get; set; }
-        public string? Gender { get; set; }
-        public string Id { get; set; }
-        public List<Name> Names { get; set; }
+        List<Address>? Addresses { get; set; }
+        List<Date> Dates { get; set; }
+        bool Deceased { get; set; }
+        string? Gender { get; set; }
+        string Id { get; set; }
+        List<Name> Names { get; set; }
     }
+
 }
